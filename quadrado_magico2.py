@@ -43,12 +43,12 @@ def proximo(l,c,num,tab):
         tab[pl][pc] = num
     return pl,pc
 
-dimensao = 7
+dimensao = 9
 tab = mat_dinamica(dimensao)
 #tab = [[0,0,0],[0,0,0],[0,0,0]]
 #print(tab)
 l = dimensao-2
 c = int(dimensao/2)-1
-for i in range(1,dimensao*dimensao):
+for i in range(1,dimensao*dimensao+1):
     l, c = proximo(l,c,i,tab)
     exibir()
