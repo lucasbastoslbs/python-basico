@@ -81,7 +81,6 @@ opcoes = {'1': gera_matriz,
 
 while True:
     os.system('cls')
-    print('\t' * 5, 'isso')
     print(menu)
     op = input('Selecione a opcao: ')
     if(op not in opcoes.keys()):
