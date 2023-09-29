@@ -14,7 +14,7 @@ while (True):
     print('4 - Registrar saída')
     print('5 - Finalizar')
     op = input('Opções: ')
-    print(lista_inscritos)
+    #print(lista_inscritos)
 
     if op == '1':
         print('Inscrições')
