@@ -99,4 +99,3 @@ while True:
     else:
         print('opção inválida')
     os.system('pause')
-#x = Noticia(1,'Luva de Box', 'Esporte', 'As luvas de box sao usadas por boxistas que lutam box.\nGeralmente utilizam em arenas fechadas, centros de treinamento e lugares específicos de treinamento.\nPortanto, boxe é o nome certo.',['luva','box','ct'])
