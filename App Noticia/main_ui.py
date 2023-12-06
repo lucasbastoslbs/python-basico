@@ -1,7 +1,7 @@
 from noticia import Noticia
 from tkinter import *
 from tkinter import ttk
-
+#nao finalizado
 def cadastrar():
     print('x')
 
